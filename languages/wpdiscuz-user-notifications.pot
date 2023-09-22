@@ -1,0 +1,483 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wpDiscuz - User Notifications\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-20 16:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: wpdiscuz-user-notifications"
+
+#: options/wunOptions.php:80
+msgid ""
+"<strong>[NOTIFIER]</strong> disliked your <a href='[COMMENT_URL]' "
+"target='_blank'>comment</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:90
+msgid ""
+"<strong>[NOTIFIER]</strong> has <a href='[COMMENT_URL]' target='_blank'>"
+"commented</a> on your post: <a href='[POST_URL]' target='_blank'>[POST_TITLE]"
+"</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:94
+msgid ""
+"<strong>[NOTIFIER]</strong> has left a <a href='[COMMENT_URL]' "
+"target='_blank'>comment</a> on <a href='[POST_URL]' target='_blank'>"
+"[POST_TITLE]</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:92
+msgid ""
+"<strong>[NOTIFIER]</strong> has left a <a href='[COMMENT_URL]' "
+"target='_blank'>comment</a> on your subscribed post: <a href='[POST_URL]' "
+"target='_blank'>[POST_TITLE]</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:84
+msgid ""
+"<strong>[NOTIFIER]</strong> has rated ([RATING]) your post - <a "
+"href='[POST_URL]' target='_blank'>[POST_TITLE]</a> <time class='wun-date'>"
+"[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:88
+msgid ""
+"<strong>[NOTIFIER]</strong> has replied to your <a href='[COMMENT_URL]' "
+"target='_blank'>comment</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:82
+msgid ""
+"<strong>[NOTIFIER]</strong> has started following you <a "
+"href='[MARK_READ_URL]' target='_blank'>Mark as read</a> <time class='wun-"
+"date'>[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:78
+msgid ""
+"<strong>[NOTIFIER]</strong> liked your <a href='[COMMENT_URL]' "
+"target='_blank'>comment</a> <time class='wun-date'>[DATE]</time>"
+msgstr ""
+
+#: options/html-options.php:315
+msgid "Admin Bar Bell"
+msgstr ""
+
+#: includes/wunHelperActions.php:652
+msgid "All notifications has been deleted"
+msgstr ""
+
+#: wunMain.php:72
+msgid "Are you sure you want to delete all notifications"
+msgstr ""
+
+#: wunMain.php:73
+msgid "Are you sure you want to delete expired notifications"
+msgstr ""
+
+#: options/html-options.php:26
+msgid ""
+"As a second option, you can enable Web Push Notification generated and "
+"controlled by browsers. This kind of notifications are displayed on the "
+"screen even if you switched to another tab or minimized the browser window."
+msgstr ""
+
+#: options/html-options.php:411 options/html-options.php:451
+#: options/html-options.php:491 options/html-options.php:531
+#: options/html-options.php:573 options/html-options.php:613
+#: options/html-options.php:653 options/html-options.php:695
+#: options/html-options.php:737 options/html-options.php:778
+msgid "Available shortcodes"
+msgstr ""
+
+#: options/html-options.php:299 options/html-options.php:318
+msgid "Bell icon"
+msgstr ""
+
+#: options/wunOptions.php:219
+msgid "Bell Style"
+msgstr ""
+
+#: options/wunOptions.php:226
+msgid "Colors"
+msgstr ""
+
+#: options/wunOptions.php:95
+msgid "Comment Approved"
+msgstr ""
+
+#: options/html-options.php:240
+msgid "Configure Web Push Notifications"
+msgstr ""
+
+#: options/html-options.php:307 options/html-options.php:326
+msgid "Counter background"
+msgstr ""
+
+#: options/html-options.php:311 options/html-options.php:330
+msgid "Counter box shadow"
+msgstr ""
+
+#: options/html-options.php:303 options/html-options.php:322
+msgid "Counter text"
+msgstr ""
+
+#: options/html-options.php:296
+msgid "Default Bell"
+msgstr ""
+
+#: includes/wunHelper.php:146
+msgid "Delete all"
+msgstr ""
+
+#: options/html-options.php:350
+msgid "Delete All Notifications"
+msgstr ""
+
+#: options/wunOptions.php:233
+msgid "Delete all notifications"
+msgstr ""
+
+#: options/html-options.php:367
+msgid "Delete Expired Notifications"
+msgstr ""
+
+#: options/wunOptions.php:240
+msgid "Delete expired notifications"
+msgstr ""
+
+#: options/html-options.php:157 options/html-options.php:193
+msgid "Disable"
+msgstr ""
+
+#: options/html-options.php:155 options/html-options.php:191
+msgid "Enable"
+msgstr ""
+
+#: options/html-options.php:298 options/html-options.php:302
+#: options/html-options.php:306 options/html-options.php:310
+#: options/html-options.php:317 options/html-options.php:321
+#: options/html-options.php:325 options/html-options.php:329
+msgid "Example: #00FF00"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Generates and displays user notifications with a notification bell in the "
+"website menu as well as generates web push notifications."
+msgstr ""
+
+#. Author of the plugin
+msgid "gVectors Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gvectors.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpdiscuz.com/"
+msgstr ""
+
+#: includes/wunHelperActions.php:634
+msgid "Invalid nonce!"
+msgstr ""
+
+#: options/wunOptions.php:191
+msgid "Live update"
+msgstr ""
+
+#: includes/wunHelper.php:145
+msgid "Load More"
+msgstr ""
+
+#: options/html-options.php:212
+msgid "Minute"
+msgstr ""
+
+#: options/html-options.php:213 options/html-options.php:214
+#: options/html-options.php:215
+msgid "Minutes"
+msgstr ""
+
+#: options/html-options.php:27
+msgid "More information about the Web Push notifications..."
+msgstr ""
+
+#: options/html-options.php:134
+msgid "my comment is approved"
+msgstr ""
+
+#: options/wunOptions.php:89 options/wunOptions.php:91
+#: options/wunOptions.php:93
+msgid "New Comment"
+msgstr ""
+
+#: options/html-options.php:123
+msgid "new comment by followed user"
+msgstr ""
+
+#: options/html-options.php:714
+msgid "New comment by following user"
+msgstr ""
+
+#: options/html-options.php:112
+msgid "new comment on subscribed post"
+msgstr ""
+
+#: options/wunOptions.php:79
+msgid "New dislike"
+msgstr ""
+
+#: options/wunOptions.php:81
+msgid "New follower"
+msgstr ""
+
+#: options/wunOptions.php:77
+msgid "New like"
+msgstr ""
+
+#: options/wunOptions.php:85
+msgid "New mention"
+msgstr ""
+
+#: options/wunOptions.php:83
+msgid "New rate on my post"
+msgstr ""
+
+#: options/wunOptions.php:87
+msgid "New Reply"
+msgstr ""
+
+#: includes/wunRoute.php:104
+msgid "No new notifications."
+msgstr ""
+
+#: options/wunOptions.php:380
+msgid "Notification Message - Comment Approved"
+msgstr ""
+
+#: options/wunOptions.php:338 options/wunOptions.php:352
+#: options/wunOptions.php:366
+msgid "Notification Message - New Comment"
+msgstr ""
+
+#: options/wunOptions.php:268
+msgid "Notification Message - New Dislike"
+msgstr ""
+
+#: options/wunOptions.php:282
+msgid "Notification Message - New Follower"
+msgstr ""
+
+#: options/wunOptions.php:254
+msgid "Notification Message - New Like"
+msgstr ""
+
+#: options/wunOptions.php:310
+msgid "Notification Message - New Mention"
+msgstr ""
+
+#: options/wunOptions.php:296
+msgid "Notification Message - New Rate"
+msgstr ""
+
+#: options/wunOptions.php:324
+msgid "Notification Message - New Reply"
+msgstr ""
+
+#: options/wunOptions.php:373
+msgid "Notification Title - Comment Approved"
+msgstr ""
+
+#: options/wunOptions.php:331 options/wunOptions.php:345
+#: options/wunOptions.php:359
+msgid "Notification Title - New Comment"
+msgstr ""
+
+#: options/wunOptions.php:261
+msgid "Notification Title - New Dislike"
+msgstr ""
+
+#: options/wunOptions.php:275
+msgid "Notification Title - New Follower"
+msgstr ""
+
+#: options/wunOptions.php:247
+msgid "Notification Title - New Like"
+msgstr ""
+
+#: options/wunOptions.php:303
+msgid "Notification Title - New Mention"
+msgstr ""
+
+#: options/wunOptions.php:289
+msgid "Notification Title - New Rate"
+msgstr ""
+
+#: options/wunOptions.php:317
+msgid "Notification Title - New Reply"
+msgstr ""
+
+#: includes/wunHelper.php:110
+msgid "Notifications"
+msgstr ""
+
+#: options/wunOptions.php:205
+msgid "Notifications count per load"
+msgstr ""
+
+#: includes/wunHelperActions.php:640
+msgid "Notifications is disabled"
+msgstr ""
+
+#: options/html-options.php:382
+msgid "Notifications Phrases"
+msgstr ""
+
+#: options/wunOptions.php:170
+msgid "Notify me when:"
+msgstr ""
+
+#: options/html-options.php:211
+msgid "Seconds"
+msgstr ""
+
+#: options/wunOptions.php:177
+msgid "Show notification bell in the top admin bar"
+msgstr ""
+
+#: options/wunOptions.php:184
+msgid "Show notifications for last X days"
+msgstr ""
+
+#: includes/wunRoute.php:215 includes/wunRoute.php:249
+#: includes/wunRoute.php:276 includes/wunRoute.php:303
+#: includes/wunRoute.php:329 includes/wunRoute.php:355
+#: includes/wunRoute.php:383 includes/wunRoute.php:411
+msgid "Someone"
+msgstr ""
+
+#: options/html-options.php:101
+msgid "someone commented on my post"
+msgstr ""
+
+#: options/html-options.php:57
+msgid "someone follows me"
+msgstr ""
+
+#: options/html-options.php:79
+msgid "someone mentioned me"
+msgstr ""
+
+#: options/html-options.php:68
+msgid "someone rates my post"
+msgstr ""
+
+#: options/html-options.php:90
+msgid "someone replied to my comment"
+msgstr ""
+
+#: options/html-options.php:46
+msgid "someone votes on my comment"
+msgstr ""
+
+#: options/html-options.php:550
+msgid "The user has been mentioned"
+msgstr ""
+
+#: options/html-options.php:468
+msgid "The user has gained a new follower"
+msgstr ""
+
+#: options/html-options.php:755
+msgid "The user's comment has been approved"
+msgstr ""
+
+#: options/html-options.php:428
+msgid "The user's comment has been disliked"
+msgstr ""
+
+#: options/html-options.php:388
+msgid "The user's comment has been liked"
+msgstr ""
+
+#: options/html-options.php:590
+msgid "The user's comment has been replied to"
+msgstr ""
+
+#: options/html-options.php:630
+msgid "The user's post has been commented on"
+msgstr ""
+
+#: options/html-options.php:508
+msgid "The user's post has received a new rating"
+msgstr ""
+
+#: options/html-options.php:672
+msgid "The user's subscribed post has been commented on"
+msgstr ""
+
+#: options/wunOptions.php:172
+msgid ""
+"There are many types of user notifications coming from the comment section. "
+"Here you can manage them for all users."
+msgstr ""
+
+#: options/wunOptions.php:235
+msgid "This button deletes all notifications in the database"
+msgstr ""
+
+#: options/wunOptions.php:242
+msgid ""
+"This button deletes expired notifications in the database. It uses the 'Show "
+"notifications for last X Days' option for detecting the expired "
+"notifications."
+msgstr ""
+
+#: options/html-options.php:24
+msgid ""
+"Two options of user notifications are available. You can put the "
+"notification bell in the main menu using <code>%wpdiscuz-bell%</code> "
+"shortocde as a Custom Link URL and any phrase as the Link Text. This menu "
+"item will be replaced to a notification bell on the website front-end menu:"
+msgstr ""
+
+#: options/wunOptions.php:198
+msgid "Update every"
+msgstr ""
+
+#: options/wunOptions.php:162
+msgid "User Notifications"
+msgstr ""
+
+#: options/wunOptions.php:212
+msgid "Web Push Notifications"
+msgstr ""
+
+#. Name of the plugin
+msgid "wpDiscuz - User Notifications"
+msgstr ""
+
+#: options/wunOptions.php:86
+msgid ""
+"You have been mentioned by <strong>[NOTIFIER]</strong> in this <a "
+"href='[COMMENT_URL]' target='_blank'>comment</a> <time class='wun-date'>"
+"[DATE]</time>"
+msgstr ""
+
+#: options/wunOptions.php:96
+msgid ""
+"Your <a href='[COMMENT_URL]' target='_blank'>comment</a> has been approved "
+"<time class='wun-date'>[DATE]</time>"
+msgstr ""

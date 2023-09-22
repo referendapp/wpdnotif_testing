@@ -1,0 +1,182 @@
+.wun-hidden{display: none !important;}
+/* NOTIFICATION BELL CSS START */
+#wpadminbar li.menu-item-wun-bell,
+li.menu-item-wun-bell {display: inline-block !important;}
+#wpadminbar li.menu-item-wun-bell a,
+li.menu-item-wun-bell a {position: relative; display: inline-block !important;}
+#wpadminbar li.menu-item-wun-bell a {padding: 0 !important; height: auto;}
+#wpadminbar .wun-bell,
+.wun-bell {vertical-align: middle;}
+.wun-bell {width: 22px; height: 22px;}
+#wpadminbar .wun-bell {width: 20px; height: 20px;}
+#wpadminbar .wun-bell.wun-has-unread,
+.wun-bell.wun-has-unread {-webkit-animation: ring 5s .7s ease-in-out infinite; -webkit-transform-origin: 50% 4px; -moz-animation: ring 5s .7s ease-in-out infinite; -moz-transform-origin: 50% 4px; animation: ring 5s .7s ease-in-out infinite; transform-origin: 50% 4px;}
+#wpadminbar .wun-count,
+.wun-count {position: absolute; border-radius: 50%; line-height: 18px; font-size: 9px; color: #fff; display: none; text-align: center; left: 13px;}
+.wun-count {width: 18px; height: 18px; left: 50%; top: calc(50% - 15px);}
+#wpadminbar .wun-count {width: 16px; height: 16px; left: 14px; top: 2px; line-height: 15px;}
+#wpadminbar .wun-count.wun-has-unread,
+.wun-count.wun-has-unread {display: inline-block;}
+@-webkit-keyframes ring {0% {-webkit-transform: rotateZ(0);}
+    1% {-webkit-transform: rotateZ(30deg);}
+    3% {-webkit-transform: rotateZ(-28deg);}
+    5% {-webkit-transform: rotateZ(34deg);}
+    7% {-webkit-transform: rotateZ(-32deg);}
+    9% {-webkit-transform: rotateZ(30deg);}
+    11% {-webkit-transform: rotateZ(-28deg);}
+    13% {-webkit-transform: rotateZ(26deg);}
+    15% {-webkit-transform: rotateZ(-24deg);}
+    17% {-webkit-transform: rotateZ(22deg);}
+    19% {-webkit-transform: rotateZ(-20deg);}
+    21% {-webkit-transform: rotateZ(18deg);}
+    23% {-webkit-transform: rotateZ(-16deg);}
+    25% {-webkit-transform: rotateZ(14deg);}
+    27% {-webkit-transform: rotateZ(-12deg);}
+    29% {-webkit-transform: rotateZ(10deg);}
+    31% {-webkit-transform: rotateZ(-8deg);}
+    33% {-webkit-transform: rotateZ(6deg);}
+    35% {-webkit-transform: rotateZ(-4deg);}
+    37% {-webkit-transform: rotateZ(2deg);}
+    39% {-webkit-transform: rotateZ(-1deg);}
+    41% {-webkit-transform: rotateZ(1deg);}
+    43% {-webkit-transform: rotateZ(0);}
+    100% {-webkit-transform: rotateZ(0);}
+}
+
+@-moz-keyframes ring {0% {-moz-transform: rotate(0);}
+    1% {-moz-transform: rotate(30deg);}
+    3% {-moz-transform: rotate(-28deg);}
+    5% {-moz-transform: rotate(34deg);}
+    7% {-moz-transform: rotate(-32deg);}
+    9% {-moz-transform: rotate(30deg);}
+    11% {-moz-transform: rotate(-28deg);}
+    13% {-moz-transform: rotate(26deg);}
+    15% {-moz-transform: rotate(-24deg);}
+    17% {-moz-transform: rotate(22deg);}
+    19% {-moz-transform: rotate(-20deg);}
+    21% {-moz-transform: rotate(18deg);}
+    23% {-moz-transform: rotate(-16deg);}
+    25% {-moz-transform: rotate(14deg);}
+    27% {-moz-transform: rotate(-12deg);}
+    29% {-moz-transform: rotate(10deg);}
+    31% {-moz-transform: rotate(-8deg);}
+    33% {-moz-transform: rotate(6deg);}
+    35% {-moz-transform: rotate(-4deg);}
+    37% {-moz-transform: rotate(2deg);}
+    39% {-moz-transform: rotate(-1deg);}
+    41% {-moz-transform: rotate(1deg);}
+    43% {-moz-transform: rotate(0);}
+    100% {-moz-transform: rotate(0);}
+}
+
+@keyframes ring {0% {transform: rotate(0);}
+    1% {transform: rotate(30deg);}
+    3% {transform: rotate(-28deg);}
+    5% {transform: rotate(34deg);}
+    7% {transform: rotate(-32deg);}
+    9% {transform: rotate(30deg);}
+    11% {transform: rotate(-28deg);}
+    13% {transform: rotate(26deg);}
+    15% {transform: rotate(-24deg);}
+    17% {transform: rotate(22deg);}
+    19% {transform: rotate(-20deg);}
+    21% {transform: rotate(18deg);}
+    23% {transform: rotate(-16deg);}
+    25% {transform: rotate(14deg);}
+    27% {transform: rotate(-12deg);}
+    29% {transform: rotate(10deg);}
+    31% {transform: rotate(-8deg);}
+    33% {transform: rotate(6deg);}
+    35% {transform: rotate(-4deg);}
+    37% {transform: rotate(2deg);}
+    39% {transform: rotate(-1deg);}
+    41% {transform: rotate(1deg);}
+    43% {transform: rotate(0);}
+    100% {transform: rotate(0);}
+}
+/* NOTIFICATION BELL CSS END */
+
+/***************************************************
+****************************************************
+***************************************************/
+
+/* NOTIFICATION CONTAINER AND ITEMS CSS START */
+#wpadminbar #wun-container *,
+#wun-container * {line-height: 1.8;}
+#wpadminbar #wun-container,
+#wun-container  {position: relative; width: 300px; height: 0; display: none; left: 0;}
+#wpadminbar #wun-container {left: -275px;}
+@media screen and (max-width:400px){
+    #wpadminbar #wun-container, #wun-container {width: 200px; left: -100px; }
+}
+#wpadminbar #wun-container  .wun-notifications,
+#wun-container  .wun-notifications {background-color: #fafafa; border-bottom: 3px solid #aaa; border-top: none; min-width: 220px; width: 100%; margin-top: 10px; z-index: 99999999; display: none; text-align: center;}
+#wpadminbar .wun-notifications .wun-head,
+.wun-notifications .wun-head {padding: 8px 5px;  color: #555555; border-bottom: 3px solid #ff6700; background-color: #f6f6f6;}
+#wpadminbar .wun-notifications .wun-head,
+.wun-notifications .wun-head,
+#wpadminbar .wun-notifications .wun-head *,
+.wun-notifications .wun-head * {font-size: 14px; font-weight: 600; letter-spacing: 1px;}
+#wpadminbar .wun-head .wun-head-bell-wrap,
+.wun-head .wun-head-bell-wrap {width: 18px; height: 18px; display: inline-block; margin: 0 7px 0 5px;}
+#wpadminbar .wun-head .wun-head-bell-wrap .wun-head-bell,
+.wun-head .wun-head-bell-wrap .wun-head-bell {vertical-align: middle;}
+#wpadminbar .wun-notifications .wun-content,
+.wun-notifications .wun-content {padding: 0; overflow-y: auto; overflow-x: hidden; max-height: 250px; color: #555555;}
+#wpadminbar .wun-notifications .wun-content strong,
+.wun-notifications .wun-content strong {font-weight: 600;}
+#wpadminbar .wun-notifications .wun-content,
+.wun-notifications .wun-content,
+#wpadminbar .wun-notifications .wun-content *,
+.wun-notifications .wun-content * {font-size: 12px; color: #555555;}
+#wpadminbar .wun-notifications .wun-actions,
+.wun-notifications .wun-actions {display: none; text-align: right; padding: 0 0 10px 0; font-size: 12px; width: 100%;}
+#wpadminbar .wun-notifications .wun-actions .wun-action,
+.wun-notifications .wun-actions .wun-action {background-color: transparent; text-transform: none; text-decoration: none; text-shadow: none; border-radius: 0; border: none; content: ""; left: 0; position: relative; top: 0; width: auto; display: inline-block; white-space: nowrap; line-height: 20px; height: auto; min-height: inherit; color: #ff6700; cursor: pointer; font-size: 14px; padding: 8px 10px 0 10px;}
+#wpadminbar .wun-notifications .wun-actions .wun-action:hover,
+.wun-notifications .wun-actions .wun-action:hover {color: #058775;}
+#wpadminbar .wun-notifications .wun-actions .wun-action-load-more,
+.wun-notifications .wun-actions .wun-action-load-more {text-align: center; padding: 5px 10px 7px; background-color: #f6f6f6; border-radius: 0; display: none; border-top: 1px dashed #aaa; margin-top: 1px; color: #888;}
+#wpadminbar .wun-notifications .wun-actions .wun-action-load-more:hover,
+.wun-notifications .wun-actions .wun-action-load-more:hover {background-color: #f0f0f0;}
+#wpadminbar .wun-notifications .wun-content dl,
+#wpadminbar .wun-notifications .wun-content li,
+.wun-notifications .wun-content dl,
+.wun-notifications .wun-content li {list-style: none;}
+#wpadminbar .wun-notifications .wun-content dl,
+.wun-notifications .wun-content dl {margin: 0; padding: 0; border: 0; vertical-align: baseline; line-height: 1.6; overflow: auto; width: 100%; height: auto; position: relative; display: block; background: none; background-color: transparent; left: 0; right: 0; opacity: 1;}
+#wpadminbar .wun-content .wun-item,
+.wun-content .wun-item {padding: 8px 4px 3px; background-color: #f6f6f6; border-bottom: 1px dashed #aaa; margin: 0; display: flex; flex-direction: row; justify-content: space-around; align-items: flex-start;}
+#wpadminbar #wun-container .wun-content .wun-item a,
+#wun-container .wun-content .wun-item a {color: #72aee6; padding: 0; margin: 0;}
+#wpadminbar .wun-content .wun-item:last-child,
+.wun-content .wun-item:last-child {margin: 0; border-bottom: none;}
+#wpadminbar .wun-content .wun-item:hover,
+.wun-content .wun-item:hover {background-color: #fafafa;}
+#wpadminbar .wun-item .wun-nleft,
+.wun-item .wun-nleft {flex-basis: 12%; padding-top: 6px;}
+#wpadminbar .wun-item .wun-nright,
+.wun-item .wun-nright {flex-basis: 88%; padding: 0; margin: 0; text-align: left;}
+#wpadminbar .wun-item .wun-no-notifications,
+.wun-item .wun-no-notifications,
+#wpadminbar .wun-item .wun-load-time,
+.wun-item .wun-load-time {text-align: center; padding: 7px 15px;}
+#wpadminbar .wun-item .wun-item-icon,
+.wun-item .wun-item-icon {width: 18px; height: 18px;}
+#wpadminbar .wun-item .wun-item-icon path,
+.wun-item .wun-item-icon path {fill: #ff6700;}
+#wpadminbar .wun-item .wun-nright a,
+.wun-item .wun-nright a {width: auto; display: inline-block; background: transparent; color: #444; padding: 0; margin: 0; border: none; text-transform: none; text-decoration: underline; font-weight: normal; letter-spacing: initial;}
+#wpadminbar .wun-item .wun-nright a:hover,
+.wun-item .wun-nright a:hover {text-decoration: none; background: transparent;}
+#wpadminbar .wun-item .wun-nright .wun-date,
+.wun-item .wun-nright .wun-date {padding: 0px 0px 5px; text-align: left; display: block;}
+#wpadminbar .wun-loader,
+.wun-loader {width: 20%; text-align: center; padding: 0; margin: 0; display: none; vertical-align: middle; float: right; height: 32px;}
+#wpadminbar .wun-head-bell-wrap-m,
+.wun-head-bell-wrap-m {display: inline-block; float: left; height: 32px; line-height: 32px !important; padding: 0;}
+#wpadminbar .wun-loader svg path,
+#wpadminbar .wun-loader svg rect,
+.wun-loader svg path,
+.wun-loader svg rect {fill: #ff6700; width: 20%;}
+/* NOTIFICATION CONTAINER AND ITEMS CSS END */
